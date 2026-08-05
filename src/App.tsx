@@ -255,7 +255,19 @@ export default function App() {
 
       <footer className="bg-slate-900 text-slate-400 py-12 text-center">
          <div className="container mx-auto px-4">
-            <p className="max-w-2xl mx-auto leading-relaxed mb-6">يجمع المشروع بين الجدوى الفنية المتمثلة في البنية التحتية القوية والمعدات المتكاملة، والجدوى الاقتصادية المستندة إلى الطلب العالي، ليكون استثماراً آمناً ومربحاً يساهم في دعم الاقتصاد المحلي.</p>
+            <p className="max-w-2xl mx-auto leading-relaxed mb-8">يجمع المشروع بين الجدوى الفنية المتمثلة في البنية التحتية القوية والمعدات المتكاملة، والجدوى الاقتصادية المستندة إلى الطلب العالي، ليكون استثماراً آمناً ومربحاً يساهم في دعم الاقتصاد المحلي.</p>
+            
+            <div className="flex flex-col items-center gap-3 mb-8 border-t border-slate-800 pt-8 max-w-2xl mx-auto">
+               <p className="font-bold text-white text-lg">إعداد : مهندس سجاد الهنداوي</p>
+               <div className="flex flex-wrap justify-center gap-4 text-sm text-slate-300" dir="ltr">
+                  <a href="tel:07826940781" className="hover:text-white transition-colors">07826940781</a>
+                  <span className="text-slate-600">|</span>
+                  <a href="mailto:sajjad.abdulhameed@gmail.com" className="hover:text-white transition-colors">sajjad.abdulhameed@gmail.com</a>
+                  <span className="text-slate-600">|</span>
+                  <a href="https://www.instagram.com" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">Instagram</a>
+               </div>
+            </div>
+
             <p className="text-sm text-slate-500">&copy; {new Date().getFullYear()} مشروع إنتاج المياه الصحية والثلج في الشنافية. جميع الحقوق محفوظة.</p>
          </div>
       </footer>
